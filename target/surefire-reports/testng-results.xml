@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-15T17:51:05 IST" name="Suite" finished-at="2021-05-15T17:52:16 IST" duration-ms="70920">
+    <groups>
+    </groups>
+    <test started-at="2021-05-15T17:51:05 IST" name="Test" finished-at="2021-05-15T17:51:05 IST" duration-ms="12">
+    </test> <!-- Test -->
+    <test started-at="2021-05-15T17:51:05 IST" name="Validate the Navigation" finished-at="2021-05-15T17:51:58 IST" duration-ms="52837">
+      <class name="Academy.ValidateNavigationBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.ValidateNavigationBar@226642a5]" started-at="2021-05-15T17:51:05 IST" name="initialize" finished-at="2021-05-15T17:51:56 IST" duration-ms="51112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.ValidateNavigationBar@226642a5]" started-at="2021-05-15T17:51:56 IST" name="basePageNavigation" finished-at="2021-05-15T17:51:57 IST" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:Academy.ValidateNavigationBar@226642a5]" started-at="2021-05-15T17:51:57 IST" name="browserClose" finished-at="2021-05-15T17:51:58 IST" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </test> <!-- Validate the Navigation -->
+    <test started-at="2021-05-15T17:51:05 IST" name="Validating the title" finished-at="2021-05-15T17:51:58 IST" duration-ms="53606">
+      <class name="Academy.ValidateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.ValidateTitle@30ea8c23]" started-at="2021-05-15T17:51:05 IST" name="initialize" finished-at="2021-05-15T17:51:56 IST" duration-ms="51721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.ValidateTitle@30ea8c23]" started-at="2021-05-15T17:51:56 IST" name="basePageNavigation" finished-at="2021-05-15T17:51:57 IST" duration-ms="163" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<FEATURED[] COURSES> but was:<FEATURED[dfdfg] COURSES>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<FEATURED[] COURSES> but was:<FEATURED[dfdfg] COURSES>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at Academy.ValidateTitle.basePageNavigation(ValidateTitle.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:Academy.ValidateTitle@30ea8c23]" started-at="2021-05-15T17:51:58 IST" name="browserClose" finished-at="2021-05-15T17:51:58 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- Validating the title -->
+    <test started-at="2021-05-15T17:51:05 IST" name="Home page " finished-at="2021-05-15T17:52:16 IST" duration-ms="70837">
+      <class name="Academy.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.HomePage@76a36b71]" started-at="2021-05-15T17:51:05 IST" name="initialize" finished-at="2021-05-15T17:51:17 IST" duration-ms="12133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@76a36b71]" started-at="2021-05-15T17:51:17 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-05-15T17:52:04 IST" duration-ms="46884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nonrestricteduser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@76a36b71]" started-at="2021-05-15T17:52:04 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-05-15T17:52:15 IST" duration-ms="11586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricteduser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Academy.HomePage@76a36b71]" started-at="2021-05-15T17:52:15 IST" name="closeBrowser" finished-at="2021-05-15T17:52:16 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Home page  -->
+  </suite> <!-- Suite -->
+</testng-results>
